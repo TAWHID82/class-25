@@ -1,0 +1,73 @@
+/*common css start*/
+*{
+ margin:0;
+ padding:0;
+ outline: 0;
+ box-sizing: border-box;
+}
+ol,ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.text_center{
+  text-align: center;
+}
+/*common css end*/
+
+/*topbar css start*/
+#topbar{
+  background: orange;
+  height: 45px;
+}
+#topbar .topmid_bar{
+  background-color: black;
+  color: #fff;
+  transform: skew(-30deg);
+}
+#topbar .topmid_bar p{
+  transform: skew(30deg);
+}
+#topbar .container .row p{
+  font-size: 18px;
+  margin-top: 6px;
+}
+#topbar li a i{
+  color: black;
+  font-weight: 800;
+  padding: 0px 20px;
+  -webkit-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+#topbar li a:hover i{
+  border: 2px solid black;
+}
+/*topbar css end*/
+
+/*nav css start*/
+#nav {
+  background-color: #fff;
+  height: 120px;
+  border-bottom: 6px solid orangered;
+}
+#nav #main_menu ul li a {
+  font-size: 16px;
+  font-weight: 750;
+  color: black;
+  padding: 15px 30px;
+  -webkit-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  margin: 2px 0;
+}
+#nav #main_menu ul li:hover a {
+  border: 3px solid orange;
+  color: orangered;
+  font-size: medium;
+}
+
+/*nav css end*/
+
+
